@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Framework\DebugDraw.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Framework\Main.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Framework\Test.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\TestEntries.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Framework\DebugDraw.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Framework\Test.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\AddPair.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\ApplyForce.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\BodyTypes.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\Breakable.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\Bridge.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\BulletTest.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\Cantilever.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\Car.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\Chain.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\CharacterCollision.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\CollisionFiltering.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\CollisionProcessing.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\CompoundShapes.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\Confined.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\ContinuousTest.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\DistanceTest.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\Dominos.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\DumpShell.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\DynamicTreeTest.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\EdgeShapes.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\EdgeTest.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\Gears.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\OneSidedPlatform.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\Pinball.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\PolyCollision.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\PolyShapes.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\Prismatic.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\Pulleys.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\Pyramid.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\RayCast.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\Revolute.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\Rope.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\RopeJoint.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\SensorTest.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\ShapeEditing.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\SliderCrank.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\SphereStack.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\TheoJansen.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\Tiles.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\TimeOfImpact.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\VaryingFriction.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\VaryingRestitution.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\VerticalStack.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\Tests\Web.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{FEEAC18F-0440-3DEE-860B-E14589FB61FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{E38FCB43-85A0-3F6F-8B3E-0DE922089269}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{850903AE-81A8-3698-98A4-3FE7ECA79757}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\SDL2-2.0.9\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\glew-2.1.0\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\SDL2_image-2.0.4\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\SDL2_mixer-2.0.4\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\Box2D\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\Lua\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\All\include;D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\include;D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\submodules\ImGuiColorTextEdit;D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\submodules\imgui;D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\submodules\glm;D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\submodules\picojson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\SDL2-2.0.9\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\glew-2.1.0\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\SDL2_image-2.0.4\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\SDL2_mixer-2.0.4\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\Box2D\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\Lua\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\All\include;D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\include;D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\submodules\ImGuiColorTextEdit;D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\submodules\imgui;D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\submodules\glm;D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\submodules\picojson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\SDL2-2.0.9\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\glew-2.1.0\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\SDL2_image-2.0.4\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\SDL2_mixer-2.0.4\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\Box2D\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\Lua\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\All\include;D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\include;D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\submodules\ImGuiColorTextEdit;D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\submodules\imgui;D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\submodules\glm;D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\submodules\picojson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\SDL2-2.0.9\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\glew-2.1.0\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\SDL2_image-2.0.4\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\SDL2_mixer-2.0.4\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\Box2D\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\Win\Lua\include;D:\Repositories\SimpleRenderEngineProject\thirdparty\All\include;D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\include;D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\submodules\ImGuiColorTextEdit;D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\submodules\imgui;D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\submodules\glm;D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\submodules\picojson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Repositories\SimpleRenderEngineProject\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Repositories/SimpleRenderEngineProject/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Repositories/SimpleRenderEngineProject -BD:/Repositories/SimpleRenderEngineProject --check-stamp-file D:/Repositories/SimpleRenderEngineProject/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\Repositories\SimpleRenderEngineProject\CMakeFiles\3.16.5\CMakeCXXCompiler.cmake;D:\Repositories\SimpleRenderEngineProject\CMakeFiles\3.16.5\CMakeRCCompiler.cmake;D:\Repositories\SimpleRenderEngineProject\CMakeFiles\3.16.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Repositories\SimpleRenderEngineProject\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Repositories/SimpleRenderEngineProject/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Repositories/SimpleRenderEngineProject -BD:/Repositories/SimpleRenderEngineProject --check-stamp-file D:/Repositories/SimpleRenderEngineProject/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\Repositories\SimpleRenderEngineProject\CMakeFiles\3.16.5\CMakeCXXCompiler.cmake;D:\Repositories\SimpleRenderEngineProject\CMakeFiles\3.16.5\CMakeRCCompiler.cmake;D:\Repositories\SimpleRenderEngineProject\CMakeFiles\3.16.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Repositories\SimpleRenderEngineProject\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Repositories/SimpleRenderEngineProject/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Repositories/SimpleRenderEngineProject -BD:/Repositories/SimpleRenderEngineProject --check-stamp-file D:/Repositories/SimpleRenderEngineProject/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\Repositories\SimpleRenderEngineProject\CMakeFiles\3.16.5\CMakeCXXCompiler.cmake;D:\Repositories\SimpleRenderEngineProject\CMakeFiles\3.16.5\CMakeRCCompiler.cmake;D:\Repositories\SimpleRenderEngineProject\CMakeFiles\3.16.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Repositories\SimpleRenderEngineProject\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Repositories/SimpleRenderEngineProject/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Repositories/SimpleRenderEngineProject -BD:/Repositories/SimpleRenderEngineProject --check-stamp-file D:/Repositories/SimpleRenderEngineProject/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\Repositories\SimpleRenderEngineProject\CMakeFiles\3.16.5\CMakeCXXCompiler.cmake;D:\Repositories\SimpleRenderEngineProject\CMakeFiles\3.16.5\CMakeRCCompiler.cmake;D:\Repositories\SimpleRenderEngineProject\CMakeFiles\3.16.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Repositories\SimpleRenderEngineProject\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\ZERO_CHECK.vcxproj">
+      <Project>{8455724B-0B04-3E9B-9413-B551C5B883AD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\project\Asteroids\Exercise4-Asteroids.vcxproj">
+      <Project>{67BE01BC-4974-3F6C-B66F-1693F535216F}</Project>
+      <Name>Exercise4-Asteroids</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\src\SRE.vcxproj">
+      <Project>{DD4691B7-99F0-37FE-B647-C3C0CE624CAB}</Project>
+      <Name>SRE</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\examples\SRE-Example-00_hello-engine.vcxproj">
+      <Project>{5D6ED080-956E-36A9-8D12-33936AD7B2E6}</Project>
+      <Name>SRE-Example-00_hello-engine</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\examples\SRE-Example-01_hello-engine-raw.vcxproj">
+      <Project>{9754DD07-F9EC-3BE0-AA05-61D5A65F3962}</Project>
+      <Name>SRE-Example-01_hello-engine-raw</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\examples\SRE-Example-02_spheres.vcxproj">
+      <Project>{A306EE80-5A87-36B4-A1EB-5414DB148DE8}</Project>
+      <Name>SRE-Example-02_spheres</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\examples\SRE-Example-03_spinning-cube.vcxproj">
+      <Project>{03BA8F52-862F-3EFD-8861-1C869767470F}</Project>
+      <Name>SRE-Example-03_spinning-cube</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\examples\SRE-Example-04_spinning-primitives-tex.vcxproj">
+      <Project>{E685B7E9-C1AE-31E0-9427-05048C6EA888}</Project>
+      <Name>SRE-Example-04_spinning-primitives-tex</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\examples\SRE-Example-05_obj-viewer.vcxproj">
+      <Project>{B62A5EDE-FBFC-39A1-A1EC-9D68BE50AACC}</Project>
+      <Name>SRE-Example-05_obj-viewer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\examples\SRE-Example-06_custom-mesh-layout.vcxproj">
+      <Project>{0B7DAB38-6494-3582-868F-51A23128A077}</Project>
+      <Name>SRE-Example-06_custom-mesh-layout</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\examples\SRE-Example-07_matcap.vcxproj">
+      <Project>{B9DF9565-2AEF-3190-9239-4C93D63ABF65}</Project>
+      <Name>SRE-Example-07_matcap</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\examples\SRE-Example-08_gui.vcxproj">
+      <Project>{75E0C3DD-06A3-301F-8FDB-1557067EB76C}</Project>
+      <Name>SRE-Example-08_gui</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\examples\SRE-Example-09_picking.vcxproj">
+      <Project>{5266DBCD-3359-3FF2-812B-47245659254A}</Project>
+      <Name>SRE-Example-09_picking</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\examples\SRE-Example-10_skybox-example.vcxproj">
+      <Project>{BD440900-37FD-3185-91BD-8C5DAF1A1FDF}</Project>
+      <Name>SRE-Example-10_skybox-example</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\examples\SRE-Example-11_sprite-example.vcxproj">
+      <Project>{75204D76-62B0-3CFA-A1EF-2F377594CC12}</Project>
+      <Name>SRE-Example-11_sprite-example</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\examples\SRE-Example-12_render-to-texture.vcxproj">
+      <Project>{D2E46652-44DC-3A3D-B678-42C09975B26A}</Project>
+      <Name>SRE-Example-12_render-to-texture</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\examples\SRE-Example-13_benchmark64k.vcxproj">
+      <Project>{37467EBC-4F07-38DA-A86B-9C9E3FF2454D}</Project>
+      <Name>SRE-Example-13_benchmark64k</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\examples\SRE-Example-14_spinning-primitives-openvr.vcxproj">
+      <Project>{52D17780-1AE1-357B-AEE2-344345A10887}</Project>
+      <Name>SRE-Example-14_spinning-primitives-openvr</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\examples\SRE-Example-15_cloth_simulation.vcxproj">
+      <Project>{AA5E8124-FAA7-342F-B9A0-D2DC16655204}</Project>
+      <Name>SRE-Example-15_cloth_simulation</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\examples\SRE-Example-16_shadows.vcxproj">
+      <Project>{23766A6F-DF90-3F97-B58F-6C59EEF6E5C5}</Project>
+      <Name>SRE-Example-16_shadows</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\submodules\SimpleRenderEngine\examples\SRE-Example-17_deferred-shading.vcxproj">
+      <Project>{51626466-21F2-3C19-BFDD-FB295477A96F}</Project>
+      <Name>SRE-Example-17_deferred-shading</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\project\gui\SRE-Gui.vcxproj">
+      <Project>{BC123761-EFAA-3878-BEDD-9AA6F65FF080}</Project>
+      <Name>SRE-Gui</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\project\particle_system\SRE-ParticleSystem.vcxproj">
+      <Project>{39FB29ED-7EC4-3BA2-8420-8085D1069B0E}</Project>
+      <Name>SRE-ParticleSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\project\platformer\SRE-Platformer.vcxproj">
+      <Project>{45BD6917-8C81-30E4-B21A-CF2B86EB1A8D}</Project>
+      <Name>SRE-Platformer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\project\Box2DTestbed\SRE-box2d-Testbed.vcxproj">
+      <Project>{EB145E05-61D3-3B31-B1AE-27649B59CCEF}</Project>
+      <Name>SRE-box2d-Testbed</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\project\SRE-box2d-example.vcxproj">
+      <Project>{E04B888E-D9DE-3CB9-AC06-79E33DA23BA2}</Project>
+      <Name>SRE-box2d-example</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\project\SRE-box2d-platform-example.vcxproj">
+      <Project>{E1422F81-DA0E-3C27-A4A5-36CC9C349D9C}</Project>
+      <Name>SRE-box2d-platform-example</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\project\SRE-lua-example.vcxproj">
+      <Project>{DFBF1FD6-26A1-3BAC-88C9-6094D209031B}</Project>
+      <Name>SRE-lua-example</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\project\SRE-lua-example-lines.vcxproj">
+      <Project>{D6419B8E-3971-3FC4-865E-57705F0C35CD}</Project>
+      <Name>SRE-lua-example-lines</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\project\SRE-node-editor.vcxproj">
+      <Project>{FB4F6D6D-5D1B-31C7-A4CB-F47C76CA8A09}</Project>
+      <Name>SRE-node-editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\project\SRE-project.vcxproj">
+      <Project>{D6A6ECF5-6F78-3C65-B21D-58EB0B592670}</Project>
+      <Name>SRE-project</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\project\SRE-scene-graph.vcxproj">
+      <Project>{346B9717-C176-380D-AF2D-7F5CDB39422D}</Project>
+      <Name>SRE-scene-graph</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Repositories\SimpleRenderEngineProject\project\SRE-sdl2_mixer-example.vcxproj">
+      <Project>{89090FC4-AA67-3BB4-95E8-D6D60D491F16}</Project>
+      <Name>SRE-sdl2_mixer-example</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
